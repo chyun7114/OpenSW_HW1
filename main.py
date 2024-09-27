@@ -13,10 +13,10 @@ def div(a, b):
 
     return a / b
 
-x = int(input("input the first number : "))
-y = int(input("input the second number : "))
+x = int(input("Input the first number : "))
+y = int(input("Input the second number : "))
 
 print(f'add two numbers : {add(x, y)}')
 print(f'substract two numbers : {sub(x, y)}')
-print(f'multiply two numbers : {add(x, y)}')
-print(f'divide two numbers : {sub(x, y)}')
+print(f'multiply two numbers : {mul(x, y)}')
+print(f'divide two numbers : {div(x, y)}')
